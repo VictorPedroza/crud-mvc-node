@@ -1,0 +1,50 @@
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de compilação
+*.class
+*.o
+*.out
+*.a
+*.la
+*.lo
+*.libs
+*.so
+*.dll
+
+# Ignorar pastas de dependências
+node_modules/
+vendor/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de ambiente
+.env
+*.env
+
+# Ignorar arquivos de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos do sistema de controle de versão (não deve estar no repositório)
+.git/
+.gitmodules
+
+# Ignorar arquivos temporários de editores de texto
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorar builds ou arquivos gerados
+/dist
+/build
+/public
+
+# Ignorar arquivos de testes temporários ou artefatos de CI/CD
+*.coverage
+*.test
+*.temp
